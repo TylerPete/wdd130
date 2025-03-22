@@ -5,48 +5,42 @@
     --accent-hunyadi-yellow: #F6AE2D;
 }
 
-/* CANNOT figure out how to limit the entire
-    width of the page??!! */
-
-/* main {
-    max-width: 400;
+header,
+main,
+footer {
+    max-width: 800px;
 }
-*/
+
 .hero {
     position: relative;
 }
 
-/* Can't figure out why relative & absolute position
- declarations aren't working to get the heading and paragraph
- over top of the hero image. */
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-}
-
-.hero article {
-    position: absolute;
-}
-
-h1 {
-    font-family: "Racing Sans One";
+.heading1 {
+    top: 5px;
+    left: 100px;
     color: var(--accent-white-smoke);
-}
-
-h2 {
     font-family: "Racing Sans One";
-    color: var(--accent-hunyadi-yellow);
+    font-size: 48px;
+    position: absolute;
 }
 
-p {
+.article1 {
+    top: 170px;
+    left: 50px;
+    color: var(--accent-white-smoke);
     font-family: "STIX Two Text";
-    color: var(--secondary-delft-blue);
+    font-size: 20px;
+    position: absolute;
+    background-color: var(--accent-hunyadi-yellow);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 600px;
+}
+
+.image1 {
+    float: right;
 }
 
 .sociallinks {
