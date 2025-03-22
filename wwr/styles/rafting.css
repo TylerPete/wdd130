@@ -40,14 +40,20 @@ footer {
     max-width: 600px;
 }
 
-.para1 {
-    opacity: 100%;
-}
-
 .image1 {
     float: right;
 }
 
 .sociallinks {
     text-decoration: none;
+}
+
+h2 {
+    font-family: "Racing Sans One";
+    color: var(--secondary-delft-blue);
+}
+
+.history-para {
+    font-family: "STIX Two Text";
+    color: var(--secondary-delft-blue);
 }
