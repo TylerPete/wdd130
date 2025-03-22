@@ -1,0 +1,46 @@
+:root {
+    --primary-picton-blue: #36A4D9;
+    --secondary-delft-blue: #1E3257;
+    --accent-white-smoke: #F5F3F5;
+    --accent-hunyadi-yellow: #F6AE2D;
+}
+
+/* CANNOT figure out how to limit the entire
+    width of the page??!! */
+
+/* main {
+    max-width: 400;
+}
+*/
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+}
+
+h1 {
+    font-family: "Racing Sans One";
+    color: var(--accent-white-smoke);
+}
+
+h2 {
+    font-family: "Racing Sans One";
+    color: var(--accent-hunyadi-yellow);
+}
+
+p {
+    font-family: "STIX Two Text";
+    color: var(--secondary-delft-blue);
+}
+
+.sociallinks {
+    text-decoration: none;
+}
