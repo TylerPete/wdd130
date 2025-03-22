@@ -12,6 +12,14 @@
     max-width: 400;
 }
 */
+.hero {
+    position: relative;
+}
+
+/* Can't figure out why relative & absolute position
+ declarations aren't working to get the heading and paragraph
+ over top of the hero image. */
+
 .hero img {
     display: block;
     width: 100%;
