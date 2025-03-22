@@ -12,6 +12,7 @@ footer {
 }
 
 .hero {
+    display: block;
     position: relative;
 }
 
@@ -31,12 +32,16 @@ footer {
     font-family: "STIX Two Text";
     font-size: 20px;
     position: absolute;
-    background-color: var(--accent-hunyadi-yellow);
+    background-color: rgba(246, 174, 45, 0.85);
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 10px;
     padding-right: 10px;
     max-width: 600px;
+}
+
+.para1 {
+    opacity: 100%;
 }
 
 .image1 {
