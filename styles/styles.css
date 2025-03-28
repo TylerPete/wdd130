@@ -12,20 +12,48 @@
 nav {
     background-color: var(--basic-dark-blue);
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav a {
+    display: block;
     color: var(--white-background);
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 main {
-    max-width: 840px;
+    margin: 0 auto;
+    grid-column: 2/3;
+    
 }
+
+/* Searched Google for a way to solve a color contrast issue
+   between the background color and the link's color after
+   having been clicked--this is what I found. */
+main a:visited {
+    color: var(--white-background);
+}
+
 
 h1 {
     color: var(--basic-dark-blue);
+    border-bottom: 1px solid gray;
+    margin-bottom: 5px;
 }
 
 main img {
@@ -47,8 +75,10 @@ aside {
     margin: 10px;
     border: 0;
     padding: 10px 15px;
-    text-align: center;
+    margin: 0 auto;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -76,6 +106,7 @@ footer {
     padding: 1rem;
     background-color: var(--basic-dark-blue);
     color: var(--white-background);
+    text-decoration: none;
 }
 
 .bumpdown {
