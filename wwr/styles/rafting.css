@@ -11,9 +11,37 @@ footer {
     max-width: 800px;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    background-color: var(--secondary-delft-blue);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px var(--primary-picton-blue) solid;
+}
+
+.logo {
+    width: 120px;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-button {
+    text-decoration: none;
+    color: var(--secondary-delft-blue);
+    padding: 14px;
+    line-height: 22px;
+}
+
 .hero {
     display: block;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .heading1 {
@@ -44,16 +72,83 @@ footer {
     float: right;
 }
 
+.blank-section {
+    clear: both;
+    padding: 1px;
+}
+
+.history-section {
+    border: 2px var(--secondary-delft-blue) solid;
+    clear: both;
+    padding-bottom: 10px;
+}
+
+.history-heading {
+    text-align: center;
+    line-height: 10px;
+    margin-bottom: 12px;
+}
+
+.history-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.history {
+    padding-left: 15px;
+    font-family: "STIX Two Text";
+}
+
+.adventure-section {
+    margin-top: 16px;
+    border: 2px var(--secondary-delft-blue) solid;
+}
+
+.adventure-heading {
+    text-align: center;
+}
+
+.adventure-div {
+    max-width: 800px;
+    display: flex;
+}
+
+.adventure-figure {
+    min-width: 1;
+    margin: 15px;
+}
+
+.caption {
+    font-family: "STIX Two Text";
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
 .sociallinks {
+    display: flex;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 {
+    width: 28px;
+    height: 28px;
+    margin-left: 4px;
+}
+
+.logo2:first-of-type {
+    width: 25px;
+    height: 25px;
 }
 
 h2 {
     font-family: "Racing Sans One";
-    color: var(--secondary-delft-blue);
-}
-
-.history-para {
-    font-family: "STIX Two Text";
     color: var(--secondary-delft-blue);
 }
