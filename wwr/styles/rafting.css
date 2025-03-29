@@ -1,6 +1,6 @@
 :root {
-    --primary-picton-blue: #36A4D9;
-    --secondary-delft-blue: #1E3257;
+    --primary-picton-blue: rgb(54, 162, 217);
+    --secondary-delft-blue: rgb(30, 50, 87);
     --accent-white-smoke: #F5F3F5;
     --accent-hunyadi-yellow: #F6AE2D;
 }
@@ -18,10 +18,10 @@ footer {
 header {
     display: grid;
     grid-template-columns: 5fr 7fr;
-    background-color: var(--secondary-delft-blue);
+    background-color: var(--accent-hunyadi-yellow);
     padding-top: 15px;
     padding-bottom: 15px;
-    border: 1px var(--primary-picton-blue) solid;
+    border: 1px var(--secondary-delft-blue) solid;
 }
 
 .logo {
@@ -67,7 +67,7 @@ header {
     font-family: "STIX Two Text";
     font-size: 20px;
     position: absolute;
-    background-color: rgba(246, 174, 45, 0.85);
+    background-color: rgba(30, 50, 87, 0.85);
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 10px;
