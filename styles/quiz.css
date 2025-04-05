@@ -20,17 +20,22 @@ form {
     background-color: var(--background-grey);
 }
 
-fieldset > label {
+fieldset>label {
     margin-bottom: 6px;
 }
 
-fieldset > input {
+fieldset>input {
     margin-bottom: 12px;
     line-height: 25px;
     width: 100%;
 }
 
-fieldset > select {
+fieldset>select {
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+fieldset>textarea {
     margin-bottom: 12px;
     width: 100%;
 }
