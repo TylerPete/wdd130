@@ -69,6 +69,48 @@ header {
     grid-gap: 10px;
 }
 
+.trip-figure > article {
+    font-family: "STIX Two Text";
+}
+
+.trip-caption {
+    text-wrap: wrap;
+}
+
+.popular-trips-grid {
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 25px;
+    justify-content: space-around;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.trips-table {
+    margin-top: 25px;
+    border-collapse: collapse;
+    border: 2px solid var(--secondary-delft-blue);
+}
+
+.trips-table > th,td {
+    border: 1px solid var(--secondary-delft-blue);
+}
+
+.trips-table > td,th {
+    border: 1px solid var(--secondary-delft-blue);
+}
+
+.schedule-now-figure {
+    position: relative;
+}
+
+.schedule-caption {
+    position: absolute;
+    bottom: 65px;
+    left: 25px;
+    font-size: 20px;
+}
+
 .employee-figure {
     margin: 0;
 }
@@ -78,6 +120,14 @@ header {
 }
 
 .hear-from-you-heading {
+    font-family: "STIX Two Text";
+    color: black;
+    font-size: 30px;
+    margin-left: 20px;
+    grid-column: 1/3;
+}
+
+.popular-trips-heading {
     font-family: "STIX Two Text";
     color: black;
     font-size: 30px;
@@ -127,7 +177,7 @@ form>fieldset>textarea {
     display: inline;
 }
 
-.contact-heading1 {
+.contactrips-heading1 {
     margin: 0 auto;
     background-color: var(--secondary-delft-blue);
     line-height: 100px;
