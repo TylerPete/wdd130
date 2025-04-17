@@ -51,6 +51,24 @@ header {
     margin-bottom: 10px;
 }
 
+.view-trips-button {
+    text-decoration: none;
+    color: var(--accent-hunyadi-yellow);
+    position: absolute;
+    font-size: 36px;
+    font-family: "Racing Sans One";
+    border: 5px solid var(--accent-hunyadi-yellow);
+    border-radius: 7px;
+    background-color: var(--primary-picton-blue);
+    padding: 10px;
+    left: 50%;
+    margin-left: -100px;
+    min-width: 201px;
+    width: 201px;
+    top: 150px; /* fix this for vertical centering */
+    
+}
+
 .heading1 {
     top: 5px;
     left: 100px;
