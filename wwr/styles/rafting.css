@@ -293,6 +293,10 @@ form>fieldset>textarea {
     border: 2px var(--secondary-delft-blue) solid;
 }
 
+.offerings-section {
+    margin-top: 16px;
+}
+
 .adventure-heading {
     text-align: center;
 }
@@ -302,8 +306,41 @@ form>fieldset>textarea {
     display: flex;
 }
 
+.offerings-div {
+    clear: both;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2px;
+}
+
 .adventure-figure {
     margin: 15px;
+}
+
+.offerings-figure {
+    margin: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.offerings-figure img {
+    /* width: 100%; */
+    min-width: 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.offerings-caption {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    font-size: 2rem;
+    font-family: "STIX Two Text";
+    font-weight: bold;
+    color: var(--accent-white-smoke);
+    background-color: rgba(30, 50, 87, 0.85);
+    padding: 5px;
 }
 
 .adventure-figure img {
