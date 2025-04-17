@@ -86,6 +86,7 @@ header {
     justify-content: space-around;
     max-width: 800px;
     margin-top: 10px;
+    column-gap: 15px;
 }
 
 .trips-table {
@@ -107,6 +108,8 @@ header {
 }
 
 .schedule-caption {
+    text-decoration: none;
+    color: black;
     position: absolute;
     bottom: 45px;
     left: 25px;
