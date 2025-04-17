@@ -347,9 +347,52 @@ form>fieldset>textarea {
     width: 100%;
 }
 
+.oars-figure {
+    width: 100%;
+}
+
+.oars-figure img {
+    width: 70%;
+}
+
 .caption {
     font-family: "STIX Two Text";
     text-align: center;
+}
+
+.newsletter-container {
+    position: relative;
+}
+
+.newsletter-form {
+    width: 40%;
+    position: absolute;
+    top: 10px;
+    left: 60%;
+    background-color: var(--primary-picton-blue);
+    padding: 5px;
+}
+
+.newsletter-legend {
+    font-family: "Racing Sans One";
+    padding-bottom: 10px;
+}
+
+.newsletter-entry {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.signup-button {
+    align-content: center;
+    padding: 5px;
+    letter-spacing: 1.1px;
+    font-family: "Racing Sans One";
+    border: 2px solid var(--secondary-delft-blue);
+    border-radius: 2px;
+    font-size: 16px;
+    display: block;
+    margin: auto;
 }
 
 footer {
