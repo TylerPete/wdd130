@@ -53,20 +53,21 @@ header {
 
 .view-trips-button {
     text-decoration: none;
-    color: var(--accent-hunyadi-yellow);
+    color: var(--accent-white-smoke);
     position: absolute;
     font-size: 36px;
     font-family: "Racing Sans One";
-    border: 5px solid var(--accent-hunyadi-yellow);
+    border: 5px solid var(-);
     border-radius: 7px;
-    background-color: var(--primary-picton-blue);
+    background-color: var(--secondary-delft-blue);
     padding: 10px;
     left: 50%;
     margin-left: -100px;
-    min-width: 201px;
-    width: 201px;
-    top: 150px; /* fix this for vertical centering */
-    
+    min-width: 195px;
+    width: 195px;
+    top: 200px;
+    /* fix this for vertical centering */
+
 }
 
 .heading1 {
@@ -75,6 +76,16 @@ header {
     color: var(--accent-white-smoke);
     font-family: "Racing Sans One";
     font-size: 48px;
+    position: absolute;
+}
+
+.home-heading1 {
+    top: 5px;
+    left: 50%;
+    margin-left: -250px;
+    color: var(--accent-white-smoke);
+    font-family: "Racing Sans One";
+    font-size: 56px;
     position: absolute;
 }
 
@@ -87,7 +98,7 @@ header {
     grid-gap: 10px;
 }
 
-.trip-figure > figcaption {
+.trip-figure>figcaption {
     font-family: "STIX Two Text";
     font-weight: bold;
 }
@@ -113,11 +124,13 @@ header {
     border: 2px solid var(--secondary-delft-blue);
 }
 
-.trips-table > th,td {
+.trips-table>th,
+td {
     border: 1px solid var(--secondary-delft-blue);
 }
 
-.trips-table > td,th {
+.trips-table>td,
+th {
     border: 1px solid var(--secondary-delft-blue);
 }
 
