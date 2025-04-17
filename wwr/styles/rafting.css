@@ -82,11 +82,14 @@ header {
 .home-heading1 {
     top: 5px;
     left: 50%;
-    margin-left: -250px;
-    color: var(--accent-hunyadi-yellow);
+    margin-left: -265px;
+    background-color: rgba(245, 243, 245, 0.6);
+    color: var(--secondary-delft-blue);
     font-family: "Racing Sans One";
     font-size: 56px;
     position: absolute;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
 }
 
 .staff-grid {
